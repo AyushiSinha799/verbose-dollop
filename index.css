@@ -1,0 +1,471 @@
+html,body{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.taskbar{
+    height: 100vh;
+    background-image: url(image/louis-hansel-wOISTbCpUCc-unsplash.jpg);
+    background-size:cover ; 
+    background-position: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.taskbar{
+    padding: 10px 10%;
+}
+.p,.pp2 {
+    font-weight: bolder;
+    text-align: center;
+    margin-left: 60px; 
+   margin-bottom: 0;
+   margin-top: 90px;
+   padding-top: 90px;
+   margin-right: 0;
+   padding-left: 20;
+    font-size: 70px;
+    font-family: Hack,sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #000, rgb(18, 16, 16), #000);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 5s linear infinite;
+    position: relative;
+    font-style: italic;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position-x: -500%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  }
+  
+  
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: inline-block;
+    float: right;
+    font-weight: bold;
+}
+nav ul li{
+    display: inline-block;
+    list-style:none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: rgb(186, 4, 4);
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    display: inline-block;
+    font-family:'Poppins',sans-serif;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: rgb(4, 181, 246);
+    position:absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width:100%;
+}
+.cointainer{
+    height: 100vh;
+    width: 100%;
+    background-image: url(image/annie-spratt-R3LcfTvcGWY-unsplash.jpg);
+    background-size:cover ; 
+    background-position: center;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+* { box-sizing:border-box }
+.slideshow-container {
+    max-width: 850px;
+    position: absolute;
+    margin: auto;
+    margin-bottom: 0;
+}
+.mySlides {
+    display: none;
+}
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgba(241, 249, 9, 0.981);
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.numbertext {
+    color: #f8e702;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    font-weight: bold;
+}
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    position: absolute;
+}
+.active, .dot:hover {
+    background-color: #717171;
+}
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+.p1{
+    float:right;
+    width: 700px;
+    color:white;
+    font-size: 50px;
+    padding-left: 80px;
+    margin-left: 80px;
+    border: left 60px; 
+} 
+.p2{
+    float:right;
+    width: 700px;
+    color:white;
+    font-size: 40px;
+    padding-left: 80px;
+    margin-left: 80px;
+    border: left 60px; 
+}
+.p3{
+    float:right;
+    width: 700px;
+    color:white;
+    font-size: 40px;
+   padding-left: 80px;
+   margin-left: 80px;
+   border: left 60px; 
+}
+.p4{
+    float:right;
+    width: 700px;
+    color:white;
+    font-size: 40px;
+    padding-left: 80px;
+    margin-left: 80px;
+    border: left 60px; 
+} 
+.cc2{
+    height: 100%;
+    background-image: url(image/miti-qYreP9QOdrk-unsplash.jpg);
+    background-size:cover ; 
+    background-position: center;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.pa{
+    color: yellow;
+    font-size: 80px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 0;
+}
+.c3{
+    width:500px;
+    margin-left: 180px;
+    padding-left: 180px;
+    margin-top: 3px;
+    padding-top: 3px;
+    display: inline-block;
+    vertical-align: top;
+}
+* {
+    box-sizing: border-box;
+}
+/* Position the image container (needed to position the left and right arrows) */
+.containers {
+    position: relative;
+}
+/* Hide the images by default */
+.mySlide {
+    display: none;
+}
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+/* Next & previous buttons */
+.prevs,.nexts {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+/* Position the "next button" to the right */
+.nexts {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prevs:hover,.nexts:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* Number text (1/3 etc) */
+.numbertexts {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+/* Container for image text */
+.caption-containers {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+.rows:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Six columns side by side */
+.columns {
+    float: left;
+    width: 16.66%;
+}
+/* Add a transparency effect for thumnbail images */
+.demos {
+    opacity: 0.6;
+}
+.active,.demos:hover {
+    opacity: 1;
+}
+.c5{
+    width:350px;
+    margin-left: 50px;
+    padding-left: 50px;
+    margin-top: 3px;
+    padding-top: 3px;
+    display: inline-block;
+    vertical-align: top;
+}
+* {
+box-sizing: border-box;
+}
+/* Position the image container (needed to position the left and right arrows) */
+.container6 {
+    position: relative;
+}
+/* Hide the images by default */
+.mySlides3 {
+    display: none;
+}
+ /* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+/* Next & previous buttons */
+.preves,
+.nextes {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+/* Position the "next button" to the right */
+.nextes {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.preves:hover, .nextes:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* Number text (1/3 etc) */
+.numbertextes {
+         color: #f2f2f2;
+     font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+        top: 0;
+  }
+ /* Container for image text */
+  .caption-containeres {
+    text-align: center;
+     background-color: #222;
+   padding: 2px 16px;
+     color: white;
+    }
+   .rowes:after {
+    content: "";
+     display: table;
+     clear: both;
+     }
+    /* Six columns side by side */
+     .columnes {
+     float: left;
+    width: 16.66%;
+    }
+  /* Add a transparency effect for thumnbail images */
+     .demo {
+   opacity: 0.6;
+    }
+   
+  .active,.demo:hover {
+    opacity: 1;
+     }
+#contact{
+  width: 100%;
+   height: 100vh;
+  background-image: url(image/alexander-andrews-JYGnB9gTCls-unsplash.jpg);
+  background-size:cover ; 
+  background-position: center;
+  margin-top: 0;
+  padding-top: 0;
+    }
+    .sub-title{
+        margin-top:0;
+        padding-top: 20px;
+        font-size: 80px;
+        font-weight: bold;
+    }
+    .fa-solid {
+        font-weight: bold;
+    }
+    .contact-left{
+    flex-basis:45%;
+    }
+    .contact-right{
+flex-basis: 60%;
+    }
+    .contact-left p{
+    margin-top: 30px;
+    }
+    .contact-left p i{
+    color: #8000ff;
+   margin-right: 15px;
+    font-size: 25px;
+    }
+    .social-icons{
+     margin-top: 30px;
+    }
+    .social-icons a{
+   text-decoration: none;
+  font-size: 30px;
+    margin-top: 15px;
+   color:#ababab ;
+   display:inline-block;
+  transition: 0.5s;
+    }
+    .social-icons a:hover{
+  color: #8000ff;
+   transform: translateY(-5px);
+    }
+    .btn.btn2{
+    display: inline-block;
+   background: #00b7ff;
+    }
+    .contact-right form{
+    width: 100%;
+    }
+    form input,form textarea{
+    width: 50%;
+    border:0 ;
+  outline:none ;
+     background: #262626;
+    padding: 15px;
+    margin:15px 0 ;
+    color: #fff;
+   font-size: 18px;
+   border-radius: 6px;
+    }
+    form .btn2{
+   padding: 14px;
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+    }
+    #msg{
+ color:#61b752;
+  margin-top: -5px;
+   display:block;
+    } 
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: salmon;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+      }
+      
